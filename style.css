@@ -1,0 +1,46 @@
+header {
+    background-color: aqua;
+    height: auto;
+
+}
+
+.main {
+    background-color: lightcoral;
+    height: auto;
+}
+
+footer{
+    background-color: lightgreen;
+    height: 200px;
+}
+
+.navTopLi {
+    display: inline-block;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navTopLi a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.heroGrid {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    grid-gap: 20px;
+}
+
+.textBox {
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
